@@ -12,3 +12,8 @@ Note:
 3. userIds param for fetch events by date is a comma separated string which has userids of users
 4. interval days are in days & totaloccurences are no of times
 5. duration in time slots api is in minutes
+
+If I could've spend additional time I would be trying to consider
+1. Currently this is a Work Calendar. I could introduce multiple calendars like birthday, holidays etc like how it is in Google Calendar.
+2. I would introduce Notification system into the project, it could be email triggers, inapp triggers.
+3. Usually many do give validations on frontend side, I prefer giving validations on backend as well. I could've added validations properly on backend code as well
