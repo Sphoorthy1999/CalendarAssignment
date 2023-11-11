@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    username: root
+    password: /*use your mysql root password*/
+    url: jdbc:mysql://localhost:3001/Calendar?createDatabaseIfNotExist=YES&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    generate-ddl: true
+    hibernate:
+      ddl-auto: update
+  jackson:
+    time-zone: UTC
